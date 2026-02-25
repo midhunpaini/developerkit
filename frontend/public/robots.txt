@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /hook/
+
+Sitemap: https://developertools.dev/sitemap.xml
