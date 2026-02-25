@@ -20,12 +20,12 @@ function envUrl(name: 'VITE_API_BASE_URL' | 'VITE_HOOK_BASE_URL') {
 
 function inferDefaultApiBaseUrl() {
   if (typeof window === 'undefined') {
-    return 'http://localhost:8000';
+    return 'http://localhost:8005';
   }
 
   const { protocol, hostname, origin } = window.location;
   if (hostname === 'localhost' || hostname === '127.0.0.1') {
-    return `${protocol}//${hostname}:8000`;
+    return `${protocol}//${hostname}:8005`;
   }
 
   return trimTrailingSlash(origin);

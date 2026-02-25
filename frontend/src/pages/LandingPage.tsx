@@ -20,19 +20,11 @@ export function LandingPage() {
         }}
       />
 
-      <div className="min-h-screen bg-appbg text-text">
+      <div className="flex min-h-screen flex-col bg-appbg text-text">
         <header className="border-b border-border/50 bg-appbg">
           <div className="mx-auto flex w-full max-w-5xl flex-col gap-6 px-4 py-8">
-            <div className="flex items-center justify-between gap-4">
+            <div className="flex items-center gap-4">
               <SiteLogo />
-              <nav aria-label="Tool navigation">
-                <a
-                  href="#tools"
-                  className="text-sm text-slate-300 hover:text-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-                >
-                  Tools
-                </a>
-              </nav>
             </div>
 
             <Panel className="p-6">
@@ -48,7 +40,7 @@ export function LandingPage() {
           </div>
         </header>
 
-        <main className="mx-auto w-full max-w-5xl px-4 pb-8 pt-6">
+        <main className="mx-auto w-full max-w-5xl flex-1 px-4 pb-8 pt-6">
           <section id="tools" aria-labelledby="tools-heading">
             <h2 id="tools-heading" className="sr-only">
               Tool Directory

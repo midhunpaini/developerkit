@@ -124,7 +124,7 @@ export function WebhookViewerPage() {
         jsonLd={buildSoftwareApplicationJsonLdForTool(WEBHOOK_TESTER_TOOL)}
       />
 
-      <div className="min-h-screen bg-appbg text-text">
+      <div className="flex min-h-screen flex-col bg-appbg text-text">
         <header className="border-b border-border/50 bg-appbg">
           <div className="mx-auto flex w-full max-w-7xl flex-col gap-4 px-4 py-6">
             <div className="flex items-center justify-between gap-4">
@@ -166,7 +166,7 @@ export function WebhookViewerPage() {
           </div>
         </header>
 
-        <main className="mx-auto flex w-full max-w-7xl flex-col gap-4 px-4 py-4 sm:py-6">
+        <main className="mx-auto flex w-full max-w-7xl flex-1 flex-col gap-4 px-4 py-4 sm:py-6">
           {!hasEndpoint ? (
             <>
               {generateErrorMessage ? (

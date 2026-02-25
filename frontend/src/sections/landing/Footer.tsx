@@ -1,7 +1,7 @@
 import { SITE_CONFIG } from '@/config/site';
 import { Panel } from '@/components/common/Panel';
 
-const GITHUB_REPO_URL = 'https://github.com/your-org/developertools';
+const GITHUB_REPO_URL = 'https://github.com/midhunpaini/developertools';
 const BUY_ME_A_COFFEE_URL = 'https://buymeacoffee.com/yourhandle';
 const SHARE_URL =
   'https://twitter.com/intent/tweet?text=Free%20Developer%20Tools%20for%20developers&url=https%3A%2F%2Fdevelopertools.dev';
@@ -41,7 +41,7 @@ export function Footer() {
                 href={BUY_ME_A_COFFEE_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="text-sm text-slate-400 hover:text-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+                className="inline-flex items-center rounded-md px-1 py-1.5 text-sm text-slate-400 hover:text-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
               >
                 Buy me a coffee
               </a>
@@ -53,28 +53,6 @@ export function Footer() {
           <p>
             Copyright {year} {SITE_CONFIG.siteName}
           </p>
-          <nav aria-label="Footer links" className="flex items-center gap-4">
-            <a
-              href={GITHUB_REPO_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-            >
-              GitHub Repository
-            </a>
-            <a
-              href="/robots.txt"
-              className="hover:text-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-            >
-              robots.txt
-            </a>
-            <a
-              href="/sitemap.xml"
-              className="hover:text-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-            >
-              Sitemap
-            </a>
-          </nav>
         </div>
       </div>
     </footer>

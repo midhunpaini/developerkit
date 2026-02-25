@@ -26,7 +26,7 @@ export function ToolPlaceholderPage({ tool }: ToolPlaceholderPageProps) {
         jsonLd={buildSoftwareApplicationJsonLdForTool(tool)}
       />
 
-      <div className="min-h-screen bg-appbg text-text">
+      <div className="flex min-h-screen flex-col bg-appbg text-text">
         <header className="border-b border-border/50 bg-appbg">
           <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 py-6">
             <Link
@@ -45,7 +45,7 @@ export function ToolPlaceholderPage({ tool }: ToolPlaceholderPageProps) {
           </div>
         </header>
 
-        <main className="mx-auto flex w-full max-w-5xl flex-col gap-4 px-4 py-6">
+        <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col gap-4 px-4 py-6">
           <section aria-labelledby={`${tool.slug}-heading`}>
             <Panel className="p-6">
               <div className="space-y-3">
@@ -67,14 +67,6 @@ export function ToolPlaceholderPage({ tool }: ToolPlaceholderPageProps) {
             </Panel>
           </section>
 
-          <section aria-label={`${tool.name} placeholder`}>
-            <Panel className="p-4">
-              <p className="text-sm text-slate-300">
-                This tool page is live for navigation and SEO, and the interactive
-                utility will be added soon.
-              </p>
-            </Panel>
-          </section>
         </main>
 
         <Footer />
