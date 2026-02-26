@@ -2,7 +2,7 @@ import { SITE_CONFIG } from '@/config/site';
 import { Panel } from '@/components/common/Panel';
 
 const GITHUB_REPO_URL = 'https://github.com/midhunpaini/developertools';
-const BUY_ME_A_COFFEE_URL = 'https://buymeacoffee.com/yourhandle';
+const BUY_ME_A_COFFEE_URL = 'https://buymeacoffee.com/midhunpaini';
 const SHARE_URL =
   'https://twitter.com/intent/tweet?text=Free%20Developer%20Tools%20for%20developers&url=https%3A%2F%2Fdevelopertools.dev';
 
