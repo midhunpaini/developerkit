@@ -20,7 +20,7 @@ export const TOOLS: ToolMetadata[] = [
     status: 'active',
     shortDescription:
       'Generate temporary endpoints and inspect incoming webhook requests in real time.',
-    seoTitle: 'Free Webhook Tester | DeveloperTools.dev',
+    seoTitle: 'Free Webhook Tester | DeveloperKit.dev',
     seoDescription:
       'Instantly test and inspect webhook requests. Generate temporary endpoints and debug payloads in real time.',
     jsonLdDescription:
@@ -35,11 +35,11 @@ export const TOOLS: ToolMetadata[] = [
     status: 'coming-soon',
     shortDescription:
       'Decode tokens, inspect claims, and validate JWT structure quickly in the browser.',
-    seoTitle: 'JWT Debugger (Coming Soon) | DeveloperTools.dev',
+    seoTitle: 'JWT Debugger (Coming Soon) | DeveloperKit.dev',
     seoDescription:
-      'JWT Debugger is coming soon to DeveloperTools.dev. Decode and inspect JWT claims, headers, and token structure quickly.',
+      'JWT Debugger is coming soon to DeveloperKit.dev. Decode and inspect JWT claims, headers, and token structure quickly.',
     jsonLdDescription:
-      'JWT Debugger for decoding tokens and inspecting claims and headers. Coming soon on DeveloperTools.dev.',
+      'JWT Debugger for decoding tokens and inspecting claims and headers. Coming soon on DeveloperKit.dev.',
     pageIntro:
       'Decode JSON Web Tokens, inspect headers and claims, and validate token structure. This tool is coming soon.'
   },
@@ -50,11 +50,11 @@ export const TOOLS: ToolMetadata[] = [
     status: 'coming-soon',
     shortDescription:
       'Format, validate, and inspect JSON payloads with a fast, minimal interface.',
-    seoTitle: 'JSON Formatter (Coming Soon) | DeveloperTools.dev',
+    seoTitle: 'JSON Formatter (Coming Soon) | DeveloperKit.dev',
     seoDescription:
-      'JSON Formatter is coming soon to DeveloperTools.dev. Format and validate JSON payloads with a simple developer-focused UI.',
+      'JSON Formatter is coming soon to DeveloperKit.dev. Format and validate JSON payloads with a simple developer-focused UI.',
     jsonLdDescription:
-      'JSON Formatter for formatting and validating JSON payloads. Coming soon on DeveloperTools.dev.',
+      'JSON Formatter for formatting and validating JSON payloads. Coming soon on DeveloperKit.dev.',
     pageIntro:
       'Format and validate JSON payloads with a simple, fast interface. This tool is coming soon.'
   },
@@ -65,11 +65,11 @@ export const TOOLS: ToolMetadata[] = [
     status: 'coming-soon',
     shortDescription:
       'Generate HMAC signatures for webhook verification and API request debugging.',
-    seoTitle: 'HMAC Generator (Coming Soon) | DeveloperTools.dev',
+    seoTitle: 'HMAC Generator (Coming Soon) | DeveloperKit.dev',
     seoDescription:
-      'HMAC Generator is coming soon to DeveloperTools.dev. Generate HMAC signatures for webhook testing and API debugging.',
+      'HMAC Generator is coming soon to DeveloperKit.dev. Generate HMAC signatures for webhook testing and API debugging.',
     jsonLdDescription:
-      'HMAC Generator for creating signatures used in webhook verification and API debugging. Coming soon on DeveloperTools.dev.',
+      'HMAC Generator for creating signatures used in webhook verification and API debugging. Coming soon on DeveloperKit.dev.',
     pageIntro:
       'Generate HMAC signatures for webhook verification and API debugging workflows. This tool is coming soon.'
   }

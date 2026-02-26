@@ -3,4 +3,4 @@ Allow: /
 Disallow: /api/
 Disallow: /hook/
 
-Sitemap: https://developertools.dev/sitemap.xml
+Sitemap: https://developerkit.dev/sitemap.xml

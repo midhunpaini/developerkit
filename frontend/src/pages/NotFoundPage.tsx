@@ -7,7 +7,7 @@ export function NotFoundPage() {
   return (
     <>
       <SeoMeta
-        title="Page Not Found | DeveloperTools.dev"
+        title="Page Not Found | DeveloperKit.dev"
         description="The requested page could not be found."
         robots="noindex, nofollow"
       />

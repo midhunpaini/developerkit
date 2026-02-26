@@ -1,8 +1,8 @@
 export const SITE_CONFIG = {
-  siteName: 'DeveloperTools.dev',
-  siteUrl: 'https://developertools.dev',
+  siteName: 'DeveloperKit.dev',
+  siteUrl: 'https://developerkit.dev',
   brandColor: '#3b82f6',
-  defaultOgImage: 'https://developertools.dev/og-image.svg',
+  defaultOgImage: 'https://developerkit.dev/og-image.svg',
   endpointBasePath: '/hook/'
 } as const;
 

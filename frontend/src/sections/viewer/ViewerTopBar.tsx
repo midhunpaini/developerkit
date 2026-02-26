@@ -23,7 +23,7 @@ export function ViewerTopBar({
           <Link
             to="/"
             className="rounded-md hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-            aria-label="Go to DeveloperTools.dev home page"
+            aria-label="Go to DeveloperKit.dev home page"
           >
             <SiteLogo compact />
           </Link>

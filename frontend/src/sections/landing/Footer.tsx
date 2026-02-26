@@ -4,7 +4,7 @@ import { Panel } from '@/components/common/Panel';
 const GITHUB_REPO_URL = 'https://github.com/midhunpaini/developertools';
 const BUY_ME_A_COFFEE_URL = 'https://buymeacoffee.com/midhunpaini';
 const SHARE_URL =
-  'https://twitter.com/intent/tweet?text=Free%20Developer%20Tools%20for%20developers&url=https%3A%2F%2Fdevelopertools.dev';
+  'https://twitter.com/intent/tweet?text=Free%20Developer%20Tools%20for%20developers&url=https%3A%2F%2Fdeveloperkit.dev';
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -24,7 +24,7 @@ export function Footer() {
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center rounded-md border border-primary/40 bg-primary/10 px-3 py-1.5 text-sm font-medium text-primary hover:bg-primary/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-                aria-label="Star the DeveloperTools repository on GitHub"
+                aria-label="Star the DeveloperKit repository on GitHub"
               >
                 Star on GitHub
               </a>
@@ -33,7 +33,7 @@ export function Footer() {
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center rounded-md border border-border bg-slate-900/60 px-3 py-1.5 text-sm text-slate-200 hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-                aria-label="Share DeveloperTools.dev"
+                aria-label="Share DeveloperKit.dev"
               >
                 Share
               </a>

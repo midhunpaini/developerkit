@@ -11,7 +11,7 @@ export function LandingPage() {
   return (
     <>
       <SeoMeta
-        title="Free Developer Tools | DeveloperTools.dev"
+        title="Free Developer Tools | DeveloperKit.dev"
         description="Free online tools for developers including webhook tester, JWT debugger, JSON formatter and more."
         canonical={`${SITE_CONFIG.siteUrl}/`}
         openGraph={{

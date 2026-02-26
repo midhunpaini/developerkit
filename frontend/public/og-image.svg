@@ -7,7 +7,7 @@
   </defs>
   <rect width="1200" height="630" fill="url(#g)"/>
   <rect x="80" y="80" width="1040" height="470" rx="20" fill="#1e293b" stroke="#334155"/>
-  <text x="120" y="235" fill="#e2e8f0" font-size="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">DeveloperTools.dev</text>
+  <text x="120" y="235" fill="#e2e8f0" font-size="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">DeveloperKit.dev</text>
   <text x="120" y="315" fill="#94a3b8" font-size="34" font-family="ui-sans-serif, system-ui, sans-serif">Free Developer Tools</text>
   <text x="120" y="365" fill="#94a3b8" font-size="30" font-family="ui-sans-serif, system-ui, sans-serif">Simple, fast, and free tools for developers.</text>
   <rect x="120" y="425" width="270" height="58" rx="10" fill="#3b82f6"/>

@@ -32,7 +32,7 @@ export function ToolPlaceholderPage({ tool }: ToolPlaceholderPageProps) {
             <Link
               to="/"
               className="rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-              aria-label="Go to DeveloperTools.dev home"
+              aria-label="Go to DeveloperKit.dev home"
             >
               <SiteLogo />
             </Link>

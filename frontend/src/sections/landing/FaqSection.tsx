@@ -10,7 +10,7 @@ export const faqItems: FaqItem[] = [
   {
     question: 'Is this tool free?',
     answer:
-      'Yes. Webhook Tester on DeveloperTools.dev is a free developer utility for generating temporary webhook endpoints and inspecting requests.'
+      'Yes. Webhook Tester on DeveloperKit.dev is a free developer utility for generating temporary webhook endpoints and inspecting requests.'
   },
   {
     question: 'How long are requests stored?',

@@ -22,7 +22,7 @@ export function SiteLogo({ className, compact = false }: SiteLogoProps) {
           compact ? 'text-sm font-semibold' : 'text-base font-semibold'
         )}
       >
-        DeveloperTools.dev
+        DeveloperKit.dev
       </span>
     </span>
   );
