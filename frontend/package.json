@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "seo:generate-sitemap": "node scripts/generate-sitemap.mjs",
     "build:client": "vite build",
     "build:server": "vite build --ssr src/entry-server.tsx --outDir dist-server",
     "prerender": "node scripts/prerender-landing.mjs",
-    "build": "npm run build:client && npm run build:server && npm run prerender",
+    "build": "npm run seo:generate-sitemap && npm run build:client && npm run build:server && npm run prerender",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
   },
