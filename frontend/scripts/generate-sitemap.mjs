@@ -49,7 +49,7 @@ const routeDefinitions = [
     path: '/hmac-generator',
     watchPaths: [
       'src/pages/HmacGeneratorPage.tsx',
-      'src/pages/ToolPlaceholderPage.tsx',
+      'src/features/hmac',
       'src/lib/seo.ts'
     ]
   }

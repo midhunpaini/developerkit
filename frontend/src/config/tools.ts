@@ -62,16 +62,16 @@ export const TOOLS: ToolMetadata[] = [
     slug: 'hmac-generator',
     name: 'HMAC Generator',
     routePath: '/hmac-generator',
-    status: 'coming-soon',
+    status: 'active',
     shortDescription:
       'Generate HMAC signatures for webhook verification and API request debugging.',
-    seoTitle: 'HMAC Generator (Coming Soon) | DeveloperKit.dev',
+    seoTitle: 'Free HMAC Signature Generator & Verifier | DeveloperKit.dev',
     seoDescription:
-      'HMAC Generator is coming soon to DeveloperKit.dev. Generate HMAC signatures for webhook testing and API debugging.',
+      'Generate and verify HMAC signatures for webhook verification and API debugging. Supports SHA-1, SHA-256, SHA-384, and SHA-512 with hex or base64 output.',
     jsonLdDescription:
-      'HMAC Generator for creating signatures used in webhook verification and API debugging. Coming soon on DeveloperKit.dev.',
+      'Free HMAC signature generator and verifier for webhook and API debugging workflows.',
     pageIntro:
-      'Generate HMAC signatures for webhook verification and API debugging workflows. This tool is coming soon.'
+      'Generate and verify HMAC signatures for webhook verification and API debugging workflows.'
   }
 ];
 
