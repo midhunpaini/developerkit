@@ -97,14 +97,14 @@ export const TOOLS: ToolMetadata[] = [
     slug: 'regex-tester',
     name: 'Regex Tester',
     routePath: '/regex-tester',
-    status: 'coming-soon',
+    status: 'active',
     shortDescription:
       'Test regular expressions with live match previews and flags.',
-    seoTitle: 'Regex Tester (Coming Soon) | DeveloperKit.dev',
+    seoTitle: 'Free Regex Tester | DeveloperKit.dev',
     seoDescription:
-      'Regex Tester is coming soon to DeveloperKit.dev. Test regular expressions with flags, groups, and live matches.',
+      'Test regular expressions with flags, groups, and live matches instantly in your browser.',
     jsonLdDescription:
-      'Regex Tester for evaluating regular expressions and debugging matches. Coming soon on DeveloperKit.dev.',
+      'Free regex tester for evaluating regular expressions, flags, and replacement previews.',
     pageIntro:
       'Test regular expressions, flags, and match groups in a fast developer-friendly interface.'
   },
@@ -187,14 +187,14 @@ export const TOOLS: ToolMetadata[] = [
     slug: 'json-diff',
     name: 'JSON Diff',
     routePath: '/json-diff',
-    status: 'coming-soon',
+    status: 'active',
     shortDescription:
       'Compare two JSON objects and inspect added, removed, and changed keys.',
-    seoTitle: 'JSON Diff (Coming Soon) | DeveloperKit.dev',
+    seoTitle: 'Free JSON Diff Tool | DeveloperKit.dev',
     seoDescription:
-      'JSON Diff is coming soon to DeveloperKit.dev. Compare JSON payloads and inspect precise object-level differences.',
+      'Compare JSON payloads and inspect key-level differences including added, removed, and changed values.',
     jsonLdDescription:
-      'JSON diff tool for comparing payload changes. Coming soon on DeveloperKit.dev.',
+      'Free JSON diff tool for comparing payload changes and value-level differences.',
     pageIntro:
       'Compare two JSON payloads and quickly identify key-level differences.'
   },
@@ -232,14 +232,14 @@ export const TOOLS: ToolMetadata[] = [
     slug: 'curl-to-fetch',
     name: 'cURL to Fetch Converter',
     routePath: '/curl-to-fetch',
-    status: 'coming-soon',
+    status: 'active',
     shortDescription:
       'Convert cURL commands to browser fetch code for quick integration.',
-    seoTitle: 'cURL to Fetch Converter (Coming Soon) | DeveloperKit.dev',
+    seoTitle: 'Free cURL to Fetch Converter | DeveloperKit.dev',
     seoDescription:
-      'cURL to Fetch Converter is coming soon to DeveloperKit.dev. Convert terminal cURL commands into fetch snippets.',
+      'Convert terminal cURL commands into ready-to-use fetch snippets for frontend and API integration.',
     jsonLdDescription:
-      'cURL to fetch converter for API integration workflows. Coming soon on DeveloperKit.dev.',
+      'Free cURL to fetch converter for API integration and frontend development workflows.',
     pageIntro:
       'Convert cURL requests into clean fetch() code for frontend and API integration.'
   },
@@ -292,14 +292,14 @@ export const TOOLS: ToolMetadata[] = [
     slug: 'json-to-typescript',
     name: 'JSON to TypeScript',
     routePath: '/json-to-typescript',
-    status: 'coming-soon',
+    status: 'active',
     shortDescription:
       'Generate TypeScript interfaces from JSON sample payloads.',
-    seoTitle: 'JSON to TypeScript (Coming Soon) | DeveloperKit.dev',
+    seoTitle: 'Free JSON to TypeScript Converter | DeveloperKit.dev',
     seoDescription:
-      'JSON to TypeScript is coming soon to DeveloperKit.dev. Generate TypeScript types from sample JSON payloads.',
+      'Generate TypeScript interfaces and types from JSON sample payloads instantly.',
     jsonLdDescription:
-      'JSON to TypeScript converter for typed API development. Coming soon on DeveloperKit.dev.',
+      'Free JSON to TypeScript converter for typed API and frontend development.',
     pageIntro:
       'Generate TypeScript interfaces from JSON examples to speed up typed development.'
   },
@@ -322,14 +322,14 @@ export const TOOLS: ToolMetadata[] = [
     slug: 'env-parser',
     name: '.env Parser',
     routePath: '/env-parser',
-    status: 'coming-soon',
+    status: 'active',
     shortDescription:
       'Parse and validate .env files for configuration debugging.',
-    seoTitle: '.env Parser (Coming Soon) | DeveloperKit.dev',
+    seoTitle: 'Free .env Parser | DeveloperKit.dev',
     seoDescription:
-      '.env Parser is coming soon to DeveloperKit.dev. Parse .env files and inspect configuration keys safely.',
+      'Parse .env files, validate entries, and inspect environment variables safely in your browser.',
     jsonLdDescription:
-      '.env parser for configuration and deployment debugging. Coming soon on DeveloperKit.dev.',
+      'Free .env parser for configuration validation and deployment debugging workflows.',
     pageIntro:
       'Parse and inspect .env configuration files for development and deployment workflows.'
   }

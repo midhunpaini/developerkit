@@ -11,6 +11,7 @@ const commonWatchPaths = [
   'src/config/tools.ts',
   'src/components/common/SiteLogo.tsx',
   'src/components/seo/SeoMeta.tsx',
+  'src/components/seo/ToolFaqSection.tsx',
   'src/sections/landing/Footer.tsx'
 ];
 
@@ -57,7 +58,7 @@ const routeDefinitions = [
     path: '/regex-tester',
     watchPaths: [
       'src/pages/RegexTesterPage.tsx',
-      'src/pages/ToolPlaceholderPage.tsx',
+      'src/features/regex-tester',
       'src/lib/seo.ts'
     ]
   },
@@ -105,7 +106,7 @@ const routeDefinitions = [
     path: '/json-diff',
     watchPaths: [
       'src/pages/JsonDiffPage.tsx',
-      'src/pages/ToolPlaceholderPage.tsx',
+      'src/features/json-diff',
       'src/lib/seo.ts'
     ]
   },
@@ -129,7 +130,7 @@ const routeDefinitions = [
     path: '/curl-to-fetch',
     watchPaths: [
       'src/pages/CurlToFetchPage.tsx',
-      'src/pages/ToolPlaceholderPage.tsx',
+      'src/features/curl-to-fetch',
       'src/lib/seo.ts'
     ]
   },
@@ -161,7 +162,7 @@ const routeDefinitions = [
     path: '/json-to-typescript',
     watchPaths: [
       'src/pages/JsonToTypescriptPage.tsx',
-      'src/pages/ToolPlaceholderPage.tsx',
+      'src/features/json-to-typescript',
       'src/lib/seo.ts'
     ]
   },
@@ -177,7 +178,7 @@ const routeDefinitions = [
     path: '/env-parser',
     watchPaths: [
       'src/pages/EnvParserPage.tsx',
-      'src/pages/ToolPlaceholderPage.tsx',
+      'src/features/env-parser',
       'src/lib/seo.ts'
     ]
   }
