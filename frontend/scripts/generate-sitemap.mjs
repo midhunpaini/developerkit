@@ -33,7 +33,7 @@ const routeDefinitions = [
     path: '/jwt-debugger',
     watchPaths: [
       'src/pages/JwtDebuggerPage.tsx',
-      'src/pages/ToolPlaceholderPage.tsx',
+      'src/features/jwt',
       'src/lib/seo.ts'
     ]
   },
@@ -41,7 +41,7 @@ const routeDefinitions = [
     path: '/json-formatter',
     watchPaths: [
       'src/pages/JsonFormatterPage.tsx',
-      'src/pages/ToolPlaceholderPage.tsx',
+      'src/features/json-formatter',
       'src/lib/seo.ts'
     ]
   },

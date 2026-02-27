@@ -32,31 +32,31 @@ export const TOOLS: ToolMetadata[] = [
     slug: 'jwt-debugger',
     name: 'JWT Debugger',
     routePath: '/jwt-debugger',
-    status: 'coming-soon',
+    status: 'active',
     shortDescription:
       'Decode tokens, inspect claims, and validate JWT structure quickly in the browser.',
-    seoTitle: 'JWT Debugger (Coming Soon) | DeveloperKit.dev',
+    seoTitle: 'Free JWT Debugger | DeveloperKit.dev',
     seoDescription:
-      'JWT Debugger is coming soon to DeveloperKit.dev. Decode and inspect JWT claims, headers, and token structure quickly.',
+      'Decode JWT tokens, inspect header and payload claims, and check token expiry instantly.',
     jsonLdDescription:
-      'JWT Debugger for decoding tokens and inspecting claims and headers. Coming soon on DeveloperKit.dev.',
+      'Free JWT debugger for decoding tokens and inspecting claims, headers, and token status.',
     pageIntro:
-      'Decode JSON Web Tokens, inspect headers and claims, and validate token structure. This tool is coming soon.'
+      'Decode JSON Web Tokens, inspect headers and claims, and quickly review token status.'
   },
   {
     slug: 'json-formatter',
     name: 'JSON Formatter',
     routePath: '/json-formatter',
-    status: 'coming-soon',
+    status: 'active',
     shortDescription:
       'Format, validate, and inspect JSON payloads with a fast, minimal interface.',
-    seoTitle: 'JSON Formatter (Coming Soon) | DeveloperKit.dev',
+    seoTitle: 'Free JSON Formatter | DeveloperKit.dev',
     seoDescription:
-      'JSON Formatter is coming soon to DeveloperKit.dev. Format and validate JSON payloads with a simple developer-focused UI.',
+      'Format, minify, and validate JSON payloads instantly with a fast developer-focused JSON formatter.',
     jsonLdDescription:
-      'JSON Formatter for formatting and validating JSON payloads. Coming soon on DeveloperKit.dev.',
+      'Free JSON formatter for formatting, minifying, and validating JSON payloads.',
     pageIntro:
-      'Format and validate JSON payloads with a simple, fast interface. This tool is coming soon.'
+      'Format, minify, and validate JSON payloads with a simple and fast interface.'
   },
   {
     slug: 'hmac-generator',
