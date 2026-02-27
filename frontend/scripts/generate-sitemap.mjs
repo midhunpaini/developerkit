@@ -52,6 +52,134 @@ const routeDefinitions = [
       'src/features/hmac',
       'src/lib/seo.ts'
     ]
+  },
+  {
+    path: '/regex-tester',
+    watchPaths: [
+      'src/pages/RegexTesterPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/base64-encoder-decoder',
+    watchPaths: [
+      'src/pages/Base64EncoderDecoderPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/url-encoder-decoder',
+    watchPaths: [
+      'src/pages/UrlEncoderDecoderPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/uuid-generator',
+    watchPaths: [
+      'src/pages/UuidGeneratorPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/timestamp-converter',
+    watchPaths: [
+      'src/pages/TimestampConverterPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/cron-expression-parser',
+    watchPaths: [
+      'src/pages/CronExpressionParserPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/json-diff',
+    watchPaths: [
+      'src/pages/JsonDiffPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/json-schema-validator',
+    watchPaths: [
+      'src/pages/JsonSchemaValidatorPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/openapi-validator',
+    watchPaths: [
+      'src/pages/OpenapiValidatorPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/curl-to-fetch',
+    watchPaths: [
+      'src/pages/CurlToFetchPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/sql-formatter',
+    watchPaths: [
+      'src/pages/SqlFormatterPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/xml-to-json',
+    watchPaths: [
+      'src/pages/XmlToJsonPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/csv-to-json',
+    watchPaths: [
+      'src/pages/CsvToJsonPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/json-to-typescript',
+    watchPaths: [
+      'src/pages/JsonToTypescriptPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/ulid-generator',
+    watchPaths: [
+      'src/pages/UlidGeneratorPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
+  },
+  {
+    path: '/env-parser',
+    watchPaths: [
+      'src/pages/EnvParserPage.tsx',
+      'src/pages/ToolPlaceholderPage.tsx',
+      'src/lib/seo.ts'
+    ]
   }
 ];
 

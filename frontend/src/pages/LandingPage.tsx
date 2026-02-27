@@ -1,3 +1,4 @@
+import { useDeferredValue, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Panel } from '@/components/common/Panel';
@@ -8,6 +9,15 @@ import { SITE_CONFIG } from '@/config/site';
 import { Footer } from '@/sections/landing/Footer';
 
 export function LandingPage() {
+  const [searchQuery, setSearchQuery] = useState('');
+  const deferredSearchQuery = useDeferredValue(searchQuery);
+  const normalizedQuery = deferredSearchQuery.trim().toLowerCase();
+  const filteredTools = normalizedQuery
+    ? TOOLS.filter((tool) =>
+        `${tool.name} ${tool.shortDescription}`.toLowerCase().includes(normalizedQuery)
+      )
+    : TOOLS;
+
   return (
     <>
       <SeoMeta
@@ -46,8 +56,31 @@ export function LandingPage() {
               Tool Directory
             </h2>
 
+            <div className="mb-4">
+              <label htmlFor="tool-search" className="sr-only">
+                Search tools
+              </label>
+              <input
+                id="tool-search"
+                type="search"
+                value={searchQuery}
+                onChange={(event) => setSearchQuery(event.target.value)}
+                placeholder="Search tools..."
+                className="w-full rounded-md border border-border bg-panel px-3 py-2 text-sm text-text placeholder:text-slate-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+                aria-label="Search developer tools"
+              />
+            </div>
+
+            {filteredTools.length === 0 ? (
+              <Panel className="p-4">
+                <p className="text-sm text-slate-300">
+                  No tools matched your search.
+                </p>
+              </Panel>
+            ) : null}
+
             <ul className="grid gap-4 sm:grid-cols-2">
-              {TOOLS.map((tool) => (
+              {filteredTools.map((tool) => (
                 <li key={tool.slug}>
                   <article className="h-full">
                     <Link

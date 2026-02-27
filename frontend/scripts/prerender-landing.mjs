@@ -11,7 +11,23 @@ const PRERENDER_ROUTES = [
   '/webhook-tester',
   '/jwt-debugger',
   '/json-formatter',
-  '/hmac-generator'
+  '/hmac-generator',
+  '/regex-tester',
+  '/base64-encoder-decoder',
+  '/url-encoder-decoder',
+  '/uuid-generator',
+  '/timestamp-converter',
+  '/cron-expression-parser',
+  '/json-diff',
+  '/json-schema-validator',
+  '/openapi-validator',
+  '/curl-to-fetch',
+  '/sql-formatter',
+  '/xml-to-json',
+  '/csv-to-json',
+  '/json-to-typescript',
+  '/ulid-generator',
+  '/env-parser'
 ];
 
 function injectAttributes(html, tagName, attrs) {
